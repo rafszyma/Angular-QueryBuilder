@@ -24,9 +24,6 @@
       "es6",
       "dom"
     ],
-
-
-
     "baseUrl": "./",
     "downlevelIteration": true,
     "importHelpers": true,

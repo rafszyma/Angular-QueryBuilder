@@ -1,6 +1,6 @@
 {
   "name": "angular-query-builder-17",
-  "version": "0.9.1",
+  "version": "0.9.4",
   "description": "A modernized Angular 17+ query builder based on jquery QueryBuilder",
   "main": "./dist/angular-query-builder/bundles/angular-query-builder.umd.js",
   "module": "./dist/angular-query-builder/esm5/angular-query-builder.js",
