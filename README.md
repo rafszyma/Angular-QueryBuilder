@@ -27,7 +27,7 @@ Play with the [Demo here](https://zebzhao.github.io/Angular-QueryBuilder/demo/).
 
 ##### `app.module.ts`
 ```javascript
-import { QueryBuilderModule } from "angular2-query-builder";
+import { QueryBuilderModule } from "angular2-query-builder-17";
 import { AppComponent } from "./app.component"
 
 @NgModule(imports: [
@@ -46,7 +46,7 @@ export class AppModule { }
 ```
 ##### `app.component.ts`
 ```javascript
-import { QueryBuilderConfig } from 'angular2-query-builder';
+import { QueryBuilderConfig } from 'angular2-query-builder-17';
 
 export class AppComponent {
   query = {
