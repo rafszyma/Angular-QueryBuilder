@@ -10,7 +10,7 @@ A modernized Angular 4+ query builder based on jQuery QueryBuilder. Support for 
 - Angular 6-7, use 0.4.2
 - Angular 4-5, use 0.3.2
 
-`npm install angular2-query-builder`
+`npm install angular-query-builder-17`
 
 ## Demo
 Play with the [Demo here](https://zebzhao.github.io/Angular-QueryBuilder/demo/).
@@ -27,7 +27,7 @@ Play with the [Demo here](https://zebzhao.github.io/Angular-QueryBuilder/demo/).
 
 ##### `app.module.ts`
 ```javascript
-import { QueryBuilderModule } from "angular2-query-builder-17";
+import { QueryBuilderModule } from "angular-query-builder-17";
 import { AppComponent } from "./app.component"
 
 @NgModule(imports: [
@@ -46,7 +46,7 @@ export class AppModule { }
 ```
 ##### `app.component.ts`
 ```javascript
-import { QueryBuilderConfig } from 'angular2-query-builder-17';
+import { QueryBuilderConfig } from 'angular-query-builder-17';
 
 export class AppComponent {
   query = {

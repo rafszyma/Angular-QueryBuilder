@@ -1,5 +1,5 @@
 {
-  "name": "angular2-query-builder-17",
+  "name": "angular-query-builder-17",
   "version": "1.0.0",
   "peerDependencies": {
     "@angular/common": ">=17.0.0",

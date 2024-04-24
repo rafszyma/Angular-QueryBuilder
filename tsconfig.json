@@ -1,6 +1,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "angular-query-builder-17": [
+        "./dist/angular-query-builder-17"
+      ]
+    },
 
     "outDir": "../../out-tsc/lib",
     "declaration": true,

@@ -1,5 +1,5 @@
 /*
- * Public API Surface of angular2-query-builder-17
+ * Public API Surface of angular-query-builder-17
  */
 
 export * from './lib/query-builder/query-builder.interfaces';
@@ -16,4 +16,4 @@ export * from './lib/query-builder/query-remove-button.directive';
 export * from './lib/query-builder/query-empty-warning.directive';
 export * from './lib/query-builder/query-arrow-icon.directive';
 
-export * from './lib/angular2-query-builder.module';
+export * from './lib/angular-query-builder-17.module';

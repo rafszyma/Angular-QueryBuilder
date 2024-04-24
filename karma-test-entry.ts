@@ -19,6 +19,3 @@ TestBed.initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting()
 );
-
-const testsContext: any = require.context('./src', true, /\.spec/);
-testsContext.keys().forEach(testsContext);
