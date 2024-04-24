@@ -16,7 +16,7 @@ module.exports = function (config) {
       clearContext: false // leave Jasmine Spec Runner output visible in browser
     },
     coverageIstanbulReporter: {
-      dir: require('path').join(__dirname, '../../coverage/angular2-query-builder'),
+      dir: require('path').join(__dirname, '../../coverage/angular2-query-builder-17'),
       reports: ['html', 'lcovonly'],
       fixWebpackSourcePaths: true
     },

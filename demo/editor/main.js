@@ -63,7 +63,7 @@ System.config({
     'rxjs-compat':                       'npm:rxjs-compat@6.2.1',
     'ts':                                'npm:plugin-typescript@8.0.0/lib/plugin.js',
     'typescript':                        'npm:typescript@2.9.2/lib/typescript.js',
-    'angular2-query-builder':            'npm:angular2-query-builder@0.5.0/dist/angular2-query-builder/bundles/angular2-query-builder.umd.js'
+    'angular2-query-builder-17':            'npm:angular2-query-builder-17@0.5.0/dist/angular2-query-builder-17/bundles/angular2-query-builder-17.umd.js'
   }
 });
 */})}, {
@@ -82,7 +82,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { QueryBuilderModule } from 'angular2-query-builder';
+import { QueryBuilderModule } from 'angular2-query-builder-17';
 
 @NgModule({
   imports: [
@@ -159,7 +159,7 @@ export class AppModule {}
   text: multiline(function () {/*
 import { FormBuilder, FormControl } from '@angular/forms';
 import { Component } from '@angular/core';
-import { QueryBuilderConfig, QueryBuilderClassNames } from "angular2-query-builder";
+import { QueryBuilderConfig, QueryBuilderClassNames } from "angular2-query-builder-17";
 
 declare const __moduleName: string;
 

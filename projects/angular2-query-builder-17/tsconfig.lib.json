@@ -27,7 +27,7 @@
     "enableResourceInlining": true,
     "debug": false,
     "skipMetadataEmit": false,
-    "enableIvy": false
+    "enableIvy": true
   },
   "exclude": [
     "src/test.ts",

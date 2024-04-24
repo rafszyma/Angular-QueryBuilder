@@ -1,6 +1,6 @@
 import { FormBuilder, FormControl } from '@angular/forms';
 import { Component } from '@angular/core';
-import { QueryBuilderClassNames, QueryBuilderConfig } from 'angular2-query-builder';
+import { QueryBuilderClassNames, QueryBuilderConfig } from 'angular2-query-builder-17';
 
 @Component({
   selector: 'app-root',
