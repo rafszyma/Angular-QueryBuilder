@@ -1,7 +1,8 @@
 {
   "extends": "./tsconfig.lib.json",
   "angularCompilerOptions": {
-    "enableIvy": true
+    "enableIvy": "ngtsc",
+    "compilationMode": "partial"
   },
   "files": [
     "src/test.ts"

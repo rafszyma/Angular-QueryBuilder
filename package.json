@@ -1,10 +1,8 @@
 {
   "name": "angular-query-builder-17",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "A modernized Angular 17+ query builder based on jquery QueryBuilder",
-  "main": "./dist/angular-query-builder/bundles/angular-query-builder.umd.js",
-  "module": "./dist/angular-query-builder/esm5/angular-query-builder.js",
-  "typings": "./dist/angular-query-builder/angular-query-builder.d.ts",
+  "main": "projects/angular-query-builder-17/index.ts",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -22,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zebzhao/Angular-QueryBuilder"
+    "url": "git+https://github.com/zebzhao/Angular-QueryBuilder.git"
   },
   "bugs": {
     "url": "https://github.com/zebzhao/Angular-QueryBuilder/issues"
@@ -44,7 +42,7 @@
     "clean:tmp": "rimraf coverage dist tmp docs",
     "codecov": "cat coverage/lcov.info | codecov",
     "docs": "compodoc -p tsconfig.json -d docs --disableCoverage",
-    "explorer": "source-map-explorer ./dist/angular-query-builder/bundles/angular-query-builder-17.umd.js",
+    "explorer": "source-map-explorer ./dist/angular-query-builder-17/bundles/angular-query-builder-17.umd.js",
     "copyDemo": "copyfiles -u 2 demo/dist/**/* docs",
     "gh-pages": "rimraf docs && npm run docs && npm run copyDemo && gh-pages -d docs",
     "postversion": "git push && git push --tags",
